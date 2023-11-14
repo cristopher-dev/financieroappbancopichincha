@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-native",
+    "sourceMap": true,
+    "noUnusedLocals": true, // Warns about unused local variables
+    "noUnusedParameters": true // Warns about unused function parameters
+  }
+}
